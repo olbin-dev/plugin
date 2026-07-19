@@ -143,7 +143,7 @@ The sync cursor may have expired. The plugin will automatically fall back to a f
 |---------|------|
 | [cAgent](https://github.com/olbin-dev/cAgent) | OpenClaw ↔ AgentKit JSON-RPC bridge ([case study](https://olbin.dev/factory.html)) |
 | [Vault Sync for Dropbox](https://github.com/olbin-dev/plugin) | Obsidian ↔ Dropbox bidirectional sync *(this repo)* |
-| [Local LLM Brain Chat](https://github.com/olbin-dev/obisidian-Plugin-LocalLLM) | Obsidian ↔ local llama.cpp chat |
+| [Local LLM Brain Chat](https://github.com/olbin-dev/obisidian-Plugin-LocalLLM) | Obsidian ↔ local llama.cpp chat — [product page](https://olbin.dev/local-llm.html) |
 
 ---
 
