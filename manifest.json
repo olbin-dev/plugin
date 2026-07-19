@@ -4,7 +4,7 @@
 	"version": "0.4.29",
 	"minAppVersion": "1.4.0",
 	"description": "ObsidianのvaultをDropboxと双方向同期（iOS対応）",
-	"author": "Faust-IA",
-	"authorUrl": "https://github.com/Faust-IA",
+	"author": "olbin.dev",
+	"authorUrl": "https://github.com/olbin-dev/plugin",
 	"isDesktopOnly": false
 }

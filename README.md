@@ -3,8 +3,10 @@
 Bidirectional sync between your Obsidian vault and Dropbox — with full iOS support.
 
 ![Obsidian](https://img.shields.io/badge/Obsidian-1.4.0%2B-purple)
-![Version](https://img.shields.io/badge/version-0.4.27-blue)
+![Version](https://img.shields.io/badge/version-0.4.29-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
+
+Part of the [olbin.dev](https://olbin.dev/) open toolkit family.
 
 ---
 
@@ -32,17 +34,19 @@ Bidirectional sync between your Obsidian vault and Dropbox — with full iOS sup
 
 ### Manual install (current)
 
-1. Download `main.js` and `manifest.json` from the [latest release](https://github.com/Faust-IA/Dropbox-obsidian-plugin/releases)
+1. Download `main.js` and `manifest.json` from this repository (or a [Release](https://github.com/olbin-dev/plugin/releases), when available).
 2. Copy both files to your vault:
-   ```
-   YourVault/.obsidian/plugins/vault-sync-dropbox/
-   ```
+
+```text
+YourVault/.obsidian/plugins/vault-sync-dropbox/
+```
+
 3. Restart Obsidian and enable the plugin in **Settings → Community Plugins**
 
 ### BRAT (for iOS / beta testing)
 
-1. Install [BRAT](https://github.com/TfTHacker/obsidian42-brat) plugin
-2. In BRAT settings, add: `Faust-IA/Dropbox-obsidian-plugin`
+1. Install [BRAT](https://github.com/TfTHacker/obsidian42-brat)
+2. In BRAT settings, add: `olbin-dev/plugin`
 3. Enable **Vault Sync for Dropbox** in Community Plugins
 
 ---
@@ -58,9 +62,11 @@ This plugin requires you to create a free Dropbox API app. This takes about 3 mi
    - Access type: **Full Dropbox**
    - Name: anything you like (e.g. `my-obsidian-sync`)
 4. In the app settings, under **OAuth 2 → Redirect URIs**, add:
-   ```
-   http://localhost:3000/callback
-   ```
+
+```text
+http://localhost:3000/callback
+```
+
 5. Copy your **App key**
 
 ---
@@ -106,9 +112,11 @@ You can add additional folders in the plugin settings.
 **Files not syncing after deletion**
 
 If a file reappears after deletion, a stale tombstone may be present in `state.json`. As of v0.4.27, this is repaired automatically on each full sync. You can also manually delete:
-```
+
+```text
 YourVault/.obsidian/plugins/vault-sync-dropbox/state.json
 ```
+
 and run a full sync to reset.
 
 **Authentication fails**
@@ -124,19 +132,28 @@ The sync cursor may have expired. The plugin will automatically fall back to a f
 ## Data & Privacy
 
 - All data is synced directly between your device and your own Dropbox account
-- No third-party servers are involved
+- No olbin.dev / third-party sync relay is involved
 - Your Dropbox credentials never leave your device
+
+---
+
+## Related projects ([olbin.dev](https://olbin.dev/))
+
+| Project | Role |
+|---------|------|
+| [cAgent](https://github.com/olbin-dev/cAgent) | OpenClaw ↔ AgentKit JSON-RPC bridge ([case study](https://olbin.dev/factory.html)) |
+| [Vault Sync for Dropbox](https://github.com/olbin-dev/plugin) | Obsidian ↔ Dropbox bidirectional sync *(this repo)* |
+| [Local LLM Brain Chat](https://github.com/olbin-dev/obisidian-Plugin-LocalLLM) | Obsidian ↔ local llama.cpp chat |
 
 ---
 
 ## License
 
-MIT — see [LICENSE](LICENSE)
+MIT
 
 ---
 
-## Author
+Maintained by **[olbin.dev](https://olbin.dev/)** / SS-FIA Engineering Team.  
+Original author: [Faust-IA](https://github.com/Faust-IA).
 
-**Faust-IA** — [GitHub](https://github.com/Faust-IA)
-
-Feedback and bug reports are welcome via [GitHub Issues](https://github.com/Faust-IA/Dropbox-obsidian-plugin/issues).
+Feedback and bug reports: [GitHub Issues](https://github.com/olbin-dev/plugin/issues).
