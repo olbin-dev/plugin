@@ -1,5 +1,8 @@
 # Vault Sync for Dropbox
 
+> **[🔥 Product page: Vault Sync for Dropbox](https://olbin.dev/vault-sync.html)** · [日本語](https://olbin.dev/vault-sync-ja.html)  
+> *Bidirectional Obsidian ↔ Dropbox sync with iOS support — part of the olbin.dev toolkit.*
+
 Bidirectional sync between your Obsidian vault and Dropbox — with full iOS support.
 
 ![Obsidian](https://img.shields.io/badge/Obsidian-1.4.0%2B-purple)
@@ -141,9 +144,14 @@ The sync cursor may have expired. The plugin will automatically fall back to a f
 
 | Project | Role |
 |---------|------|
-| [cAgent](https://github.com/olbin-dev/cAgent) | OpenClaw ↔ AgentKit JSON-RPC bridge ([case study](https://olbin.dev/factory.html)) |
-| [Vault Sync for Dropbox](https://github.com/olbin-dev/plugin) | Obsidian ↔ Dropbox bidirectional sync *(this repo)* |
-| [Local LLM Brain Chat](https://github.com/olbin-dev/obisidian-Plugin-LocalLLM) | Obsidian ↔ local llama.cpp chat — [product page](https://olbin.dev/local-llm.html) |
+| [cAgent](https://github.com/olbin-dev/cAgent) | OpenClaw ↔ AgentKit JSON-RPC bridge — [case study](https://olbin.dev/factory.html) |
+| [Vault Sync for Dropbox](https://github.com/olbin-dev/plugin) | Obsidian ↔ Dropbox sync — [product page](https://olbin.dev/vault-sync.html) |
+| [Local LLM Brain Chat](https://github.com/olbin-dev/obisidian-Plugin-LocalLLM) | Obsidian ↔ local llama.cpp — [product page](https://olbin.dev/local-llm.html) |
+| [LogosCyber](https://github.com/olbin-dev/logos-cyber) | Nuclei template AI scanner — [product page](https://olbin.dev/logos-cyber.html) |
+| [Terminal Image Paster](https://github.com/olbin-dev/Terminal-image-paster) | VS Code clipboard→terminal paths — [product page](https://olbin.dev/terminal-image-paster.html) |
+| [Sovereign Systems Log](https://github.com/olbin-dev/SSjapantokyokugahara) | Technical log — [product page](https://olbin.dev/ss-log.html) |
+| [All projects](https://olbin.dev/projects.html) | Full catalog on olbin.dev |
+
 
 ---
 
